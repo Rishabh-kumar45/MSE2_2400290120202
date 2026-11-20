@@ -1,0 +1,2 @@
+NAME                IMAGE                  COMMAND                  SERVICE   CREATED         STATUS         PORTS
+web-2400290120202   web-2400290120202:v1   "/docker-entrypoint.…"   web       5 seconds ago   Up 2 seconds   80/tcp, 0.0.0.0:8002->8080/tcp, [::]:8002->8080/tcp

@@ -1,0 +1,34 @@
+ Image web-2400290120202:v1 Building 
+#1 [internal] load local bake definitions
+#1 reading from stdin 558B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 112B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/nginx:alpne
+#3 ...
+
+#4 [auth] library/nginx:pull token for registry-1.docker.io
+#4 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/nginx:alpne
+#3 ERROR: docker.io/library/nginx:alpne: not found
+------
+ > [internal] load metadata for docker.io/library/nginx:alpne:
+------
+Dockerfile:1
+
+--------------------
+
+   1 | >>> FROM nginx:alpne
+
+   2 |     COPY index.htm /usr/share/nginx/html/index.html
+
+   3 |     EXPOSE 80
+
+--------------------
+
+failed to solve: nginx:alpne: failed to resolve source metadata for docker.io/library/nginx:alpne: docker.io/library/nginx:alpne: not found
+
